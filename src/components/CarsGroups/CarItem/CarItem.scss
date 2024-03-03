@@ -1,0 +1,50 @@
+.caritem{ 
+    &-container{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    &-image{
+        &>img{
+            height: 180px;
+            width: 250px;
+        }
+    }
+    &-title{
+        margin-top: 10px;
+        padding-left: 5px;
+        &>span{
+            font-size: 1rem;
+            font-weight: 500;
+        }
+    }
+    &-price{
+        margin-top: 10px;
+        padding-left: 5px;
+        &>span{
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+    }
+    &-offers{
+        margin: 12px 0px;
+        border-radius: 10px;
+        &>button{
+            border: 1px solid #494645;
+            background-color: white;
+            border-radius: 10px;
+            font-weight: 600;
+            color: #494645;
+            width: 250px;
+            height: 40px;
+            border-radius: 3px;
+        }
+    }
+    &-available{
+        margin-top: 10px;
+        margin-left: 5px;
+        &>span{
+            font-size: 0.7rem;
+            color: rgb(112, 112, 112);
+        }
+    }
+}
